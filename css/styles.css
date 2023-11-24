@@ -28,15 +28,19 @@
    font-family: Raleway, sans-serif;
    font-size: 18px;
    font-weight: 700;
-   line-height: 1.16;
+   line-height: 1.17;
    letter-spacing: 0.54px;
    text-transform: uppercase;
-   color: #2E2F42;
+   color: #4d5ae5;
    text-decoration: none;
 }
 
-.logo-beginning {
-   color: #4D5AE5;
+.logo-ending {
+   color: #2e2f42;
+}
+
+.contacts {
+   font-style: normal;
 }
 
 .contacts-list {
@@ -46,9 +50,9 @@
 
 .contacts-link {
    font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 1.5;
-   color: #434455;
+   line-height: 1.5;
+   letter-spacing: 0.02;
+   color: #2e2f42;
 }
 
 .contacts-link:hover,
@@ -88,14 +92,12 @@ body {
    letter-spacing: 0.64px;
 }
 
-.page-button:hover {
+.page-button:hover,
+.page-button:focus {
    background-color: #404BBF;
 }
 
 /* Features */
-.features-section-title {
-   display: none;
-}
 
 .feature-list {
    text-decoration: none;
@@ -126,12 +128,14 @@ body {
    line-height: 1.11;
    letter-spacing: 0.72px;
    text-transform: capitalize;
+   text-align: center;
    color: #2E2F42;
 }
 
 .team-list {
    text-decoration: none;
    list-style-type: none;
+   background-color: #FFFFFF;
 }
 
 .team-list-title {
@@ -154,6 +158,7 @@ body {
    line-height: 1.11;
    letter-spacing: 0.72px;
    text-transform: capitalize;
+   text-align: center;
    color: #2E2F42;
 }
 
@@ -184,15 +189,15 @@ body {
    font-family: Raleway, sans-serif;
    font-size: 18px;
    font-weight: 700;
-   line-height: 1.16;
+   line-height: 1.17;
    letter-spacing: 0.54px;
    text-transform: uppercase;
-   color: #F4F4FD;
+   color: #4d5ae5;
    text-decoration: none;
 }
 
-.logo-footer-beginning {
-   color: #4D5AE5;
+.logo-footer-ending {
+   color: #f4f4fd;
 }
 
 .footer-text {
