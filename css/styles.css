@@ -7,11 +7,9 @@
    font-family: Roboto;
    font-size: 16px;
    font-weight: 500;
-   line-height: 1,5;
    letter-spacing: 0.32px;
    text-decoration: none;
    list-style-type: none;
-   color: #2E2F42;
 }
 
 .page-nav .link:hover,
@@ -22,6 +20,12 @@
 .link-list {
    text-decoration: none;
    list-style-type: none;
+}
+
+.link-list .link {
+   line-height: 1.5;
+   color: #2e2f42;
+
 }
 
 .logo {
@@ -48,11 +52,16 @@
    list-style-type: none;
 }
 
+.contacts-list-item {
+   letter-spacing: 0.02;
+   color: #434455;
+}
+
 .contacts-link {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02;
-   color: #2e2f42;
+   color: #434455;
 }
 
 .contacts-link:hover,
@@ -135,6 +144,9 @@ body {
 .team-list {
    text-decoration: none;
    list-style-type: none;
+}
+
+.team-list-item {
    background-color: #FFFFFF;
 }
 
