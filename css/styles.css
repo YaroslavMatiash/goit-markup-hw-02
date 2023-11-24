@@ -50,23 +50,25 @@
 .contacts-list {
    text-decoration: none;
    list-style-type: none;
+   letter-spacing: 0.02em;
 }
 
 .contacts-list-item {
-   letter-spacing: 0.02;
+   letter-spacing: 0.02em;
    color: #434455;
 }
 
 .contacts-link {
    font-size: 16px;
    line-height: 1.5;
-   letter-spacing: 0.02;
+   letter-spacing: 0.02em;
    color: #434455;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
    color: #404BBF;
+   letter-spacing: 0.02em;
 }
 
 /* Body */
